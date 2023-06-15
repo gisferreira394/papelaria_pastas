@@ -1,5 +1,5 @@
 <?php
 
-header('painel/index.php');
+header('location:painel/index.php');
 
 ?>
