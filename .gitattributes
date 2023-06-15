@@ -1,2 +1,15 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+
+selecionar.php --> Listagem dos alunos, botão para cadastrar um novo aluno 
+
+novo.php --> formulario para cadastrar um novo aluno
+inserir.php --> Realizar a inserção no BD
+
+editar.php --> formulário com os dados do aulon preenchidos pronto para modificar
+atualizar.php --> realizar a atualização dos dados no BD
+
+deletar --> pagina que realiza a exclusão dos dados do aluno
+
+visualizar.php --> página com os dados e um único aluno
