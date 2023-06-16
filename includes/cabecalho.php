@@ -8,7 +8,7 @@
 <header>
     <center>
         <a href="../painel/index.php">
-    <img src="../img/logo.png" width="150">
+    <img src="../img/logoo.png" width="150">
 </center> 
 </header>
 </body>
