@@ -24,12 +24,13 @@ Módulo de Funcionário
     <td>CEP</td>
     <td>Telefone</td>
     <td>CPF</td>
+    <td>UF</td>
     <td>Ações</td>
 
 </tr>
 <!-- fim da linha dde título --->
 <?php
-$sql= "select * from fornecedor";
+$sql = "select * from funcionarios";
 $todos_os_funcionarios = mysqli_query($conexao, $sql);
 while($um_funcionario = mysqli_fetch_assoc($todos_os_funcionarios)):
 
@@ -43,12 +44,12 @@ while($um_funcionario = mysqli_fetch_assoc($todos_os_funcionarios)):
     <td><?php echo $um_funcionario ['cep'];?></td>
     <td><?php echo $um_funcionario ['telefone'];?></td>
     <td><?php echo $um_funcionario ['cpf'];?></td>
-
+    <td><?php echo $um_funcionario ['uf'];?></td>
 
     <td>
-        <a href="#"><img src="../img/visualizar.png" width="15" title="Visualizar funcionários">  </a>
-        <a href="#"> <img src="../img/editar.png" width="15" title="Editar dados do funcionário"> </a>
-        <a href="#"> <img src="../img/excluir.png" width="15" title="Excluir funcionário">   </a>
+        <a href="#"><img src="../img/visualizar.png" width="15" title="Visualizar funcionários"></a>
+        <a href="#"> <img src="../img/editar.png" width="15" title="Editar dados do funcionário"></a>
+        <a href="#"> <img src="../img/excluir.png" width="15" title="Excluir funcionário"></a>
     </td>
 </tr>
 <?php
