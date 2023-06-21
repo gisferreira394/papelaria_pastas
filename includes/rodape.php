@@ -1,7 +1,7 @@
 <footer>
-<p style="text-align: center;">&copy; Todos os direitos reservados. criado por <a href="mailto:geovanasilva394@gmail.com">
+<p style="text-align: center;">&copy; Todos os direitos reservados. Criado por <a href="mailto:geovanasilva394@gmail.com"> Geovana Silva<a>
 
-</a></p></footer>
+</p></footer>
 
 </body>
 <html>
