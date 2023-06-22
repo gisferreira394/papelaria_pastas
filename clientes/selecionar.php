@@ -50,7 +50,8 @@ while($um_funcionario = mysqli_fetch_assoc($todos_os_funcionarios)):
         <a href="visualizar.php?id=<?php echo $um_funcionario["id"];?>" title="Ver completo">
         <img src="../img/visualizar.png" width="15" title="Visualizar funcionários"></a>
 
-        <a href="#"> <img src="../img/editar.png" width="15" title="Editar dados do funcionário"></a>
+        <a href="editar.php ?id=<?php echo $um_funcionario["id"];?>"> 
+        <img src="../img/editar.png" width="15" title="Editar dados do funcionário"></a>
 
         <a href="deletar.php?id=<?php echo $um_funcionario['id'];?>"> 
         <img src="../img/excluir.png" width="15" title="Excluir funcionário"></a>
