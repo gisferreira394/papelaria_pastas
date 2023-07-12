@@ -30,7 +30,7 @@ Módulo de Funcionário
 </tr>
 <!-- fim da linha dde título --->
 <?php
-$sql = "select * from funcionarios";
+$sql = "select * from t_funcionarios";
 $todos_os_funcionarios = mysqli_query($conexao, $sql);
 while($um_funcionario = mysqli_fetch_assoc($todos_os_funcionarios)):
 

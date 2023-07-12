@@ -9,7 +9,7 @@ $telefone = $_POST ["telefone"];
 $cpf = $_POST ["cpf"];
 $uf = $_POST ["uf"];
 
-$sql = "Insert into funcionarios(nome, email, senha, cep, telefone, cpf, uf) values('$nome', '$email', '$senha', '$cep', '$telefone', '$cpf', '$uf')";
+$sql = "Insert into t_funcionarios(nome, email, senha, cep, telefone, cpf, uf) values('$nome', '$email', '$senha', '$cep', '$telefone', '$cpf', '$uf')";
 mysqli_query($conexao, $sql);
 mysqli_close($conexao);
 

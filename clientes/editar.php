@@ -5,7 +5,7 @@ include "../includes/conexao.php";
 
 $id = $_GET["id"];
 $nome = "";
-$sql = "select * from funcionarios where id = $id";
+$sql = "select * from t_funcionarios where id = $id";
 $todos_os_funcionarios = mysqli_query($conexao, $sql);
 while($um_funcionario = mysqli_fetch_assoc($todos_os_funcionarios)):
     $nome = $um_funcionario["nome"];
